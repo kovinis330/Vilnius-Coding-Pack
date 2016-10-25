@@ -1,0 +1,5 @@
+Namu darbas:
+Sukurti programa, kuri patikrintu, kiek jusu dokumente paveiksleliu.
+- jei ju daugiau nei 2 -> kas antram udeti kraštine/borderi;
+- jei maiau - prideti dar viena paveiksleli, priskirti jam 'alt' atributa.
+p.s. sveikinu ipusejus kursa, ir puikaus savaitgalio!

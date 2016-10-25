@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3 Pamoka</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+  <div class="animacija">
+  </div>
+
+<script>
+  /*
+  var vardas = "Viktoras";
+  var pavarde = "Jacevičius";
+    console.log("Labas, " + vardas + " " + pavarde + "!" + " " + "Kaip sekasi programuoti?");
+    console.log("Hello, World!");
+    console.log(7>4);
+
+  var eur = 3.4528;
+  var lit = 10;
+  console.log("10 litų yra: " + lit / eur + " eurų");
+  */
+
+  /*
+  var name = prompt("Koks jusu vardas?");
+  var greeting = function(day, time) {
+    alert("Labas, " + name + ". Šiandien yra " + day + time );
+  };
+  greeting("ketvirtadienio", " vakaras!");
+  */
+
+  /*
+  var sarasas =[1,2,3,4,5, "tekstas", "red", 45, 46];
+  console.log(sarasas[2] + sarasas[4]); // 3 + 5 = 8
+  console.log(sarasas.length);
+
+  var randomElement = sarasas[Math.floor(Math.random()*sarasas.length)];
+  alert(randomElement);
+  */
+
+  /*
+  var sarasas1 = ["Avinas", "Dvyniai", "Mergele", "Liutas", "Zuvys"];
+  var sarasas2 = ["Rytoj pasiseks", "Rytoj gers arbata", "Laimes milijona", "Valgys pica", "Eis plaukiot"];
+
+  var randomElement1 = sarasas1[Math.floor(Math.random()*sarasas1.length)];
+  var randomElement2 = sarasas2[Math.floor(Math.random()*sarasas2.length)];
+  alert(randomElement1 + " " + randomElement2 );
+
+  var age = 18;
+    if (age > 10) {
+      alert("ok");
+    }
+    else (
+      alert("not ok")
+    )
+
+  switch (age) {
+    case 10: alert(10);
+      break;
+    case 11: alert(11);
+      break;
+    default: alert("reiksme nerasta");
+  }
+ */
+
+  /*
+  var amzius = prompt("Iveskite savo amziu");
+    if (amzius >= 18) {
+      alert("Ok, galite uzeiti.");
+    }
+    else {
+      var svetaine = prompt("Iveskite svetaines pavadinima");
+      window.location.href="http://www." + svetaine + ".lt";
+    }
+  */
+
+  /*
+  var vardai = ["Jonas", "Petras", "Agne", "Egle", "Greta"];
+  for (var i = 0; i < vardai.length; i++) {
+    console.log("Labas, " + vardai[i] + "!");
+  };
+  */
+
+  var name = prompt("Hello, please enter your name");
+  var nameList = ["Viktoras","George", "John", "Jessie", "Walter", "Walt"];
+
+
+  for (var i = 0 ; i <= nameList.length; i++) {
+      if (name == nameList[i]) {
+    alert("Hello, " + name + "! Come on in!");
+    break;
+      }  else if (i==nameList.length) {
+    alert("Goodbye, stranger!");
+    window.location.href="http://poki.com/en/hello-kitty";
+       }
+  }
+
+</script>
+</body>
+</html>

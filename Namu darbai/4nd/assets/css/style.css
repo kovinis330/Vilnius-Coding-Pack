@@ -1,0 +1,38 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.animacija {
+  width:50px;
+  height: 50px;
+  background-color: lightgreen;
+  animation-name: animacija;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  position: relative;
+  animation-iteration-count: infinite;
+  margin:5% 0;
+
+}
+
+@keyframes animacija {
+    0% { left:0; top:0;}
+    100% { left:95%; top:0; background-color: orange;}
+}
+@-webkit-keyframes animacija {
+    0% { left:0; top:0;}
+    100% { left:100%; top:0; background-color: orange;}
+}
+
+/*
+var name = prompt("Hello, please enter your name");
+var nameList = ["George", "John", "Jessie", "Walter", "Walt"];
+
+if (name === nameList.contains) {
+  alert("Hello, " + name + "! Come on in!");
+}
+else {
+  alert("Goodbye, stranger!");
+  window.location.href="http://poki.com/en/hello-kitty";
+};
+*/

@@ -1,0 +1,170 @@
+/***** Start Parallax *****/
+.parallax1 {
+  background:url("../img/city.jpg") repeat fixed 100%;
+}
+.parallaxInner {
+  padding: 10% 0;
+}
+.parallax2 {
+  background:url("../img/tram.jpg") repeat fixed 100%;
+}
+.parallax3 {
+  background:url("../img/traf.jpg") repeat fixed 100%;
+}
+/***** End Parallax *****/
+/* Start Navigation */
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  top:0;
+}
+.nav li {
+  float:left;
+}
+.nav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition-duration: 1s;
+}
+.nav li a:hover {
+  background-color: orange;
+  transition: 0.7s;
+}
+.active{
+  background-color: orange;
+}
+/* End Navigation */
+
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.box {
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+.innerBox1 {
+  text-align: center;
+  color:#4a4444;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 10% 0;
+  font-size: 150%;
+}
+.innerBox1 h1 {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+.innerBox3 {
+  margin: 2% 0 0 0;
+}
+
+.right {
+  float: right;
+  margin: 50px 10px;
+  width: 40% auto;
+}
+.left {
+  width: 44%;
+  float: left;
+  margin: 50px 10px;
+  text-align: left;
+  color: #4a4444;
+}
+table, th, td {
+  margin: 180px 0 0 0;
+  border: 1px solid #4a4444;
+}
+a, a:visited {
+  text-decoration: none;
+  color:#4a4444;
+  transition-duration: 1s;
+}
+a:hover {
+  background-color: orange;
+  transition: 0.7s;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.oneThird {
+  width: 28%;
+  float: left;
+  margin: 2% 0 3% 4%;
+  text-align: center;
+}
+.oneThird img {
+  width: 80%;
+}
+.innerBox4 {
+font-size: 17px;
+margin: 0 20px;
+
+}
+.innerBox4 h3 {
+font-size: 250%;
+text-transform: uppercase;
+color: #4a4444;
+margin: 4%;
+letter-spacing: 2px;
+text-align: center;
+}
+.select {
+  font-size: 16px;
+  padding: 8px 9px;
+  border: 1px solid #4a4444;
+  margin: 10px 2px;
+
+}
+.form {
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+.inp {
+  margin: 5px 0;
+}
+.name {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin: 5px 0;
+  width: 40%;
+  height: 30px;
+}
+/* Button start */
+.buttonSubmit {
+    border: 2px solid black;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.buttonSubmit {
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+}
+.buttonSubmit:hover {
+  background-color: orange;
+  color: white;
+  transition: 0.7s;
+}
+/* Button end */

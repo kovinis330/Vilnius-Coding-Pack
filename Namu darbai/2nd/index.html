@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>Namų darbai 1 ir 2</title>
+  </head>
+  <body>
+    <header>
+      <ul class="nav">
+        <li><a href="#pagrindinis">Pagrindinis</a></li>
+        <li><a href="#lentele">Lentelė</a></li>
+        <li><a href="#elementai">Elementai</a></li>
+        <li><a href="#prenumerata">Prenumerata</a></li>
+      </ul>
+    </header>
+    <section id="pagrindinis" class="box">
+      <div class="innerBox1">
+        <h1><a href="https://www.youtube.com/watch?v=WGRrOEbY3pI" target="_blank">Sveiki Atvykę!</a></h1>
+      </div>
+    </section>
+    <section class="parallax1">
+      <div class="parallaxInner">
+      </div>
+    </section>
+    <section id="lentele" class="box">
+      <div class="left">
+        <p><u>Šitaip va man sekasi programuoti svetainę.</u></p>
+        <br>
+        <p><b>Paspausk paveiksliuką.</b></p>
+        <table>
+         <thead>
+           <tr>
+            <th colspan="3">Šioje lentelėje yra nurodytos programavimo kalbos, kurias mokysimės</th>
+           </tr>
+         </thead>
+         <tbody>
+         <tr>
+          <td>HTML</td>
+          <td>CSS</td>
+          <td>Javascript</td>
+         </tr>
+         <tr>
+          <td>Valio!</td>
+          <td>Valio!</td>
+          <td>Valio!</td>
+         </tr>
+         </tbody>
+       </table>
+      </div>
+        <a href="https://cdn.meme.am/instances/57842620.jpg" target="_blank">
+        <img class="right" src="img/challenge.png" alt="challenge">
+        </a>
+    </section>
+    <div class="clearfix"></div> <!--Atskiriu sekcijas-->
+    <section class="parallax2">
+      <div class="parallaxInner">
+      </div>
+    </section>
+    <section id="elementai" class="box">
+      <div class="innerBox3">
+        <div class="oneThird">
+          <img src="img/ch1.jpeg" alt="chemistry Cat1">
+        </div>
+        <div class="oneThird">
+          <img src="img/ch2.jpeg" alt="Chemistry Cat2">
+        </div>
+        <div class="oneThird">
+          <img src="img/ch3.jpg" alt="Chemistry Cat3">
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div> <!--Atskiriu sekcijas-->
+    <section class="parallax3">
+      <div class="parallaxInner">
+      </div>
+    </section>
+      <section id="prenumerata" class="box">
+      <div class="innerBox4">
+        <h3>Naujienlaiškio prenumerata</h3>
+        <p>Užpildykite žemiau esančią formą jei norite gauti naujienlaiškius.</p>
+        <br>
+        <form action="forma.php" method="get">
+          <p>Įveskite savo vardą.</p>
+            <input class="name" type="text" name="vardas" placeholder="Įveskite vardą čia">
+            <br>
+          <p>Įveskite savo el. paštą.</p>
+            <input class="name" type="email" name="email" placeholder="Įveskite el. paštą čia">
+            <br><br>
+          <p>Pasirinkite papildomas dominančias temas.</p>
+            <input class="inp" type="checkbox" name="Tema" value="Politika">Politika<br>
+            <input class="inp" type="checkbox" name="Tema" value="Verslas">Verslas<br>
+            <input class="inp" type="checkbox" name="Tema" value="Švietimas">Švietimas<br>
+            <input class="inp" type="checkbox" name="Tema" value="Ekonomika">Ekonomika<br>
+            <br>
+          <p>Pasirinkite prenumeratos trukmę.</p>
+            <select class="select" name="time">
+              <option value="30">1 mėnuo</option>
+              <option value="90">3 mėnesiai</option>
+              <option value="180">6 mėnesiai</option>
+              <option value="360">12 mėnesių</option>
+              <option value="x">Neribotai</option>
+            </select>
+          <br><br>
+          <button class="buttonSubmit" type="submit">Pateikti</button>
+        </form>
+        <br><br>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>5 Namų darbas</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+  <img src="img/bridge.jpg" alt="bridge">
+  <img src="img/boat.jpg" alt="boat">
+  <img src="img/cat.jpg" alt="cat">
+  <img src="img/road.jpg" alt="road">
+  <img src="img/sunset.jpg" alt="sunset">
+  <img src="img/back2.jpg" alt="forest">
+
+  <script>
+
+  var image = document.getElementsByTagName("img");
+  var newImg = document.createElement("img")
+
+  setTimeout(function(){
+    if (image.length > 2) {
+      for (var i = 1; i < image.length; i+=2){
+      image[i].style.border = "5px solid #4a4444";
+    }
+    } else {
+      var newImg = document.createElement("img");
+      newImg.setAttribute("src", "img/r33.jpg");
+      document.body.appendChild(newImg);
+    }
+  }, 3000);
+  </script>
+
+</body>
+
+
+</html>
