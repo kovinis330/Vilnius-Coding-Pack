@@ -1,0 +1,55 @@
+body {
+  background: url("https://i.ytimg.com/vi/F3I0wRGAkxo/maxresdefault.jpg") no-repeat fixed top right;
+  background-size: cover;
+  font-family: 'Pavanam', sans-serif;
+
+}
+
+p{
+  font-size: 17px;
+}
+#red{
+  color: red;
+}
+.blue{
+  color:blue;
+}
+h1 {
+  color:lightgrey;
+  font-family: 'Raleway', sans-serif;
+}
+
+.imgBox {
+  border: 5px solid red;
+  padding: 5px 0 0 60px;
+  background-color: lightblue;
+  width: 1150px;
+  margin: 0 auto;
+}
+.chemistryCat {
+  width:300px;
+  height: auto;
+  border: 5px black solid;
+  margin: 30px 10px 25px 30px;
+
+}
+
+#main #second .yellow {
+  color:yellow;
+}
+#main #second .blue {
+  color:blue;
+}
+#main #second .yellow.blue {
+  color:green;
+}
+
+#main #second #third .yellow {
+  color:blue;
+}
+#main #second #third .blue {
+  color:green;
+}
+#main #second #third .yellow.blue {
+  color:yellow;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>6 Pamoka</title>
+
+</head>
+<body>
+
+
+  <!-- <button onclick="test()">Click</button> -->
+  <!-- <button onclick="fonas()">Pakeisk fono spalva</button> -->
+
+  <script>
+
+  // function test() {
+  //   alert("test");
+  // }
+
+  // var button = document.getElementsByTag("button")[0];
+  // button.addEventListener("onclick", function(){
+  //   alert("test");
+  // })
+
+  // event.stopPropagation(); neleidzia pasispausti abiem divams
+  // event.preventDefault(); isjungia defaultinius ivykius
+
+  function fonas() {
+    document.body.style.backgroundColor = "blue";
+  }
+  function fonas2() {
+    document.body.style.backgroundColor = "white";
+  }
+
+  document.addEventListener("keydown", function(event){
+    if(event.keyCode === 87) {
+      fonas();
+    }
+  });
+  document.addEventListener("keyup", function(event){
+    fonas2();
+  })
+
+  
+  document.addEventListener("DOMContentLoaded"), function {
+
+  }
+
+  //palaukia kol uzkrauna svetaine:
+  // document.addEventListener("DOMContentLoaded") (laukia kol uzsikrauna html ir js, nelaukia paveiksleliu. Greiciau sureaguoja)
+  // window.onload .... (laukia kol uzsikraus viskas)
+
+
+  </script>
+
+</body>
+
+
+</html>
